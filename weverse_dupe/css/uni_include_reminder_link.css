@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#reminder-container {
+  position: sticky;
+  height: 75px;
+  padding: 10px 5px 10px 5px;
+  max-height: 175px;
+
+  color: rgb(255, 106, 0);
+  font-size: x-large;
+
+  background: linear-gradient(185deg, rgb(180, 0, 0, 0.6), rgb(100, 0, 0, 0.8));
+
+  border-style: solid;
+  border-color: brown;
+}
+
+a {
+  animation: rainbow-link 1.5s linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rainbow-link {
+  100%,
+  0% {
+    color: rgb(255, 0, 0);
+  }
+  8% {
+    color: rgb(255, 127, 0);
+  }
+  16% {
+    color: rgb(255, 255, 0);
+  }
+
+  33% {
+    color: rgb(0, 255, 0);
+  }
+
+  66% {
+    color: rgb(0, 0, 255);
+  }
+  75% {
+    color: rgb(127, 0, 255);
+  }
+
+  91% {
+    color: rgb(255, 0, 127);
+  }
+}

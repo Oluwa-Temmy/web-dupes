@@ -1,0 +1,29 @@
+.header-btn {
+  color: white;
+  font-weight: 700;
+  line-height: 18px;
+  font-size: 15px;
+  padding: 8px 20px 10px 22px;
+
+  background: linear-gradient(135deg, #0ed5bc, #14e0a9);
+
+  border-radius: 100px;
+  border: none;
+
+  transition: 0.1s ease;
+}
+
+.header-btn :hover {
+  opacity: 0.3;
+}
+
+.homepage-intro {
+  background-color: black;
+  text-align: center;
+}
+
+#reminder-link-container {
+  position: relative;
+  position: sticky;
+  z-index: 2;
+}
