@@ -16,9 +16,10 @@ This update focuses on starting the weverse dupe
 
 **Added**
 Weverse
--Mock Index page for weverse
--Mock log in page
--Warning label for not actual website
+
+- Mock Index page for weverse
+- Mock log in page
+- Created warning label for not actual website
 
 <!-- # [0.1.0] - 2017-03-15
 
